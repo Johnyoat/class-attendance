@@ -39,17 +39,17 @@
 
  <!-- /.login-logo -->
  <br>
-<center><h1 style="color:white">MY CLASS ATTENDANCE</h1></center>
+<center>
+<h1 style="color:white">MY CLASS ATTENDANCE</h1>
+</center>
   <br>
-            <br>
+    <br>
+        <p>&nbsp</p>
+          <p></p>
+            <p></p>
             <p>&nbsp</p>
             <p></p>
             <p></p>
-
-            <p>&nbsp</p>
-            <p></p>
-            <p></p>
-
             <p>&nbsp</p>
             <p></p>
             <p></p>
@@ -60,28 +60,25 @@
             <p></p>
 
             <p>&nbsp</p>
-            <p></p>
-            <p></p>
 
+            <p></p>
+            <p></p>
             <p>&nbsp</p>
             <p></p>
             <p></p>
-
-<center>  <div class="col-md-4" style=" position: relative;
+<center>
+<div class="col-md-4" style=" position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);"  >
   <div class="login-box-body" style="background: rgba(255,255,255,0.5);">
   <div class="login-logo">
     <!--<a href=""><img src="images/loglog.gif" style="width:90%;height:150px;"></a>-->
-   
   </div>
-
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="Email" id="fnom" name="fnom" required>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
-
 <div class="box box-danger" id="snackbar" hidden>
             <div class="box-header">
               <h3 class="box-title">Loading.....</h3>
@@ -118,21 +115,14 @@
  <div class="col-md-2"></div>
       </div>
     <!-- /.social-auth-links -->
-
   </div>
 </center>
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
-
 </center>
-
 </div>
-
 </center>
-
-
-
 
 <!-- jQuery 2.2.3 -->
 <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -145,7 +135,7 @@
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
       radioClass: 'iradio_square-blue',
-      increaseArea: '20%' // optional
+      increaseArea: '20%'
     });
   });
 </script>
