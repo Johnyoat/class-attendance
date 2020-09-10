@@ -7,7 +7,7 @@ var cont=document.getElementById('fnom').value;
 var pword=document.getElementById('pword').value;
 
 
- if (cont!="" && pword!="") 
+ if (cont!=="" && pword!=="")
  {
 
 if (window.XMLHttpRequest)
@@ -28,8 +28,6 @@ if (window.XMLHttpRequest)
     j.className = "show";
     setTimeout(function(){ j.className = j.className.replace("show", ""); 
 
- document.getElementById('fnom').value="";
- document.getElementById('pword').value="";
 
 alert(mares);
 
