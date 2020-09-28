@@ -40,8 +40,8 @@ if ($catz=="" or $levelz=="" or $periodz=="" or $coursez=="" or $attdats=="")
 </div>
 </div>
 
-<p><center><U><B> <font color="red">STUDENTS</font> </B> </u></center></p>
-<p><center><U><B> <font color="red">CLICK ON ID TO VIEW DETAILS</font> </B> </u></center></p>
+<p><center><U><B> <font color="red">STUDENTS</font> </B> </u></center></div>
+<p><center><U><B> <font color="red">CLICK ON ID TO VIEW DETAILS</font> </B> </u></center></div>
 <table id='example1' name='example1' class='table table-bordered table-striped'>
                 <thead>
                 <tr>
@@ -58,23 +58,6 @@ if ($catz=="" or $levelz=="" or $periodz=="" or $coursez=="" or $attdats=="")
 
 
 <?php
-
-$sql="SELECT * from teachcourse where emz = '$msg' AND catz='$catz' AND coursez=REPLACE('$coursez', '  ', '++')";
-$results=mysqli_query($con,$sql);
-if($results->num_rows>0)
-{
-
-
-} 
-
-else
-
-{
- echo "You Are Not Allowed To View Attendance On This Course";
-  return;
-
-}
-
 
 $sql="SELECT * from classattz where levelz = '$levelz' AND periodz='$periodz' AND catz='$catz' AND coursez=REPLACE('$coursez', '  ', '++') AND dateofatz='$attdats'";
 $result=mysqli_query($con,$sql);
